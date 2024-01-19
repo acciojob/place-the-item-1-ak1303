@@ -1,2 +1,47 @@
 
 /* Your CSS Code here. */
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+.holder{
+	display:flex;
+	margin:auto;
+	width:80%;
+	height:80%;
+	gap:15px;
+	flex-wrap:wrap;
+}
+.item{
+	width:100px;
+	height:100px;
+	font-family:arial;
+	font-size:16px;
+	font-weight:600;
+	background-color:yellow;
+}
+#box1{
+	background-color:yellow;	
+}
+#box2{
+	background-color:aqua;	
+}
+#box3{
+	background-color:magenta;	
+}
+#box4{
+	background-color:darkcyan;	
+}
+#box5{
+	background-color:darkkhaki;	
+}
+#box6{
+	background-color:seagreen;	
+}
+#box7{
+	background-color:turquoise;	
+}
+#box8{
+	background-color:orange;	
+}
